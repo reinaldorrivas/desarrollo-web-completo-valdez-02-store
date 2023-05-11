@@ -31,7 +31,45 @@
     </nav>
 
     <main class="container">
-      <h1>product</h1>
+      <h1>React JS</h1>
+
+      <div class="shirt">
+        <img
+          class="shirt__image"
+          src="./img/3.jpg"
+          alt="Product Image"
+          class="shirt__image"
+        />
+
+        <div class="shirt__content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolore
+            qui illum non delectus, fuga dolorum incidunt impedit magni,
+            debitis, natus facilis. Velit consectetur quas veritatis
+            reprehenderit impedit.
+          </p>
+
+          <form action="javascript:void(0);" class="form">
+            <select class="form__field" name="shirts" id="shirts">
+              <option value="" selected disabled>-- Select Size --</option>
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+            </select>
+            <input
+              class="form__field"
+              type="number"
+              name="shirts-quantity"
+              id="shirts-quantity"
+              placeholder="Quantity"
+              min="1"
+            />
+            <button class="form__submit" type="submit">
+              Agregar al Carrito
+            </button>
+          </form>
+        </div>
+      </div>
     </main>
 
     <footer class="footer">
